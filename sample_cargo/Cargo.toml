@@ -1,0 +1,12 @@
+[package]
+name = "sample_cargo"
+version = "0.1.0"
+authors = ["vaaaaanquish <6syun9@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rustpy"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.9.0-alpha.1", features = [ "extension-module", ] }
