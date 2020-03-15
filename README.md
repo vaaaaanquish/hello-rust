@@ -52,3 +52,22 @@ $ python
 2308138]
 ``````
 
+# pyo3
+
+https://github.com/PyO3/pyo3/blob/master/README.md  
+``````
+Rust	Python
+i32, usize 等	int
+f32, f64	float
+bool	bool
+Vec<T>	list
+String	str
+HashMap	dict
+``````
+
+# ファイル分割
+
+分割したいよね
+https://qiita.com/skitaoka/items/753a519d720a1ccebb0d
+
+
