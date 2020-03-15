@@ -44,6 +44,14 @@ fn print_mod(s: String) -> PyResult<()>{
     Ok(())
 }
 
+mod mods;
+
+#[pyfunction]
+fn print_dir(s: String) -> PyResult<()>{
+    mods::hoge::bar::hello(s);
+    Ok(())
+}
+
 #[pymodule]
 fn rustpy(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_wrapped(wrap_pyfunction!( pi_times ))?;
@@ -51,6 +59,7 @@ fn rustpy(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_wrapped(wrap_pyfunction!( print_str ))?;
     m.add_wrapped(wrap_pyfunction!( print_list ))?;
     m.add_wrapped(wrap_pyfunction!( print_mod ))?;
+    m.add_wrapped(wrap_pyfunction!( print_dir ))?;
     Ok(())
 }
 
