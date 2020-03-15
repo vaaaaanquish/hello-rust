@@ -80,3 +80,5 @@ pub mod bar{
 mod foo;
 foo::bar::hoge();
 ``````
+
+ディレクトリにする時は、__init__.pyみたいにmod.rsを用意する必要があるっぽい
