@@ -70,4 +70,13 @@ HashMap	dict
 分割したいよね
 https://qiita.com/skitaoka/items/753a519d720a1ccebb0d
 
-
+``````
+pub mod bar{
+    pub fn hoge(){}
+}
+``````
+として別ファイル名foo.rsにした上で
+``````
+mod foo;
+foo::bar::hoge();
+``````
