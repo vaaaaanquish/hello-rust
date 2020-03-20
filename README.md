@@ -1,5 +1,5 @@
 # hello-rust
-rust
+rustを学んだログ
 
 # install
 
@@ -54,7 +54,7 @@ $ python
 
 # pyo3
 
-https://github.com/PyO3/pyo3/blob/master/README.md  
+- https://github.com/PyO3/pyo3/blob/master/README.md  
 ``````
 Rust	Python
 i32, usize 等	int
@@ -68,7 +68,7 @@ HashMap	dict
 # ファイル分割
 
 分割したいよね
-https://qiita.com/skitaoka/items/753a519d720a1ccebb0d
+- https://qiita.com/skitaoka/items/753a519d720a1ccebb0d
 
 ``````
 pub mod bar{
@@ -87,8 +87,11 @@ foo::bar::hoge();
 # クラス的な何か
 
 struct, impl, traitをつかう
-https://qiita.com/nacika_ins/items/cf3782bd371da79def74
+- https://qiita.com/nacika_ins/items/cf3782bd371da79def74
 概ね理解
 
-とりあえずこれをやった
-https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/book/learn-rust.html
+# 全体感
+とりあえず以下一通り
+- https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/book/learn-rust.html
+
+なんかつくってみる
