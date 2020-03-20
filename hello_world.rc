@@ -1,3 +1,28 @@
-fn main() {
-    println!("Hello World!");
+trait Fruit {
+    fn get_size(&self) -> u64;
 }
+
+struct Apple {
+  size: u64
+}
+
+// impl Apple {
+//   fn get_size(&self) -> u64 {
+//     self.size
+//   }
+// }
+
+// impl
+impl Fruit for Apple {
+  fn get_size(&self) -> u64 {
+    self.size
+  }
+}
+
+fn main() {
+    let apple = Apple{size:1};
+    println!("{}",apple.size);
+    println!("{}",apple.get_size());
+}
+
+

@@ -82,3 +82,10 @@ foo::bar::hoge();
 ``````
 
 ディレクトリにする時は、__init__.pyみたいにmod.rsを用意する必要があるっぽい
+
+
+# クラス的な何か
+
+struct, impl, traitをつかう
+https://qiita.com/nacika_ins/items/cf3782bd371da79def74
+概ね理解
