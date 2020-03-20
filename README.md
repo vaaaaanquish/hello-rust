@@ -89,3 +89,6 @@ foo::bar::hoge();
 struct, impl, traitをつかう
 https://qiita.com/nacika_ins/items/cf3782bd371da79def74
 概ね理解
+
+とりあえずこれをやった
+https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/book/learn-rust.html
