@@ -93,5 +93,6 @@ struct, impl, traitをつかう
 # 全体感
 とりあえず以下一通り
 - https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/book/learn-rust.html
-
+    - diner/dinerとguessing-game/guessing_gameがこの文献のサンプル触ったログ
+    
 なんかつくってみる
